@@ -12,11 +12,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#090909",
+        "foregroundImage": "./assets/images/icon-b.png"
       },
+
       "predictiveBackGestureEnabled": false,
       "package": "com.abeerzafar.Berry"
     },
