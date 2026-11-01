@@ -11,7 +11,10 @@ export default function AppTabs() {
     <NativeTabs
       backgroundColor={colors.background}
       indicatorColor={colors.backgroundElement}
-      labelStyle={{ selected: { color: colors.text } }}>
+      labelStyle={{ 
+        color: '#8E8E93', // Yeh unselected tabs ka default grey color set karega
+        selected: { color: colors.text } // Yeh active tab ka color set karega
+      }}>
       
       <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
@@ -37,7 +40,6 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      {/* Assignment 3: Nayi CRUD Tab */}
       <NativeTabs.Trigger name="crud">
         <NativeTabs.Trigger.Label>CRUD</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
@@ -46,7 +48,6 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      {/* Assignment 3: Nayi API Tab */}
       <NativeTabs.Trigger name="api">
         <NativeTabs.Trigger.Label>API Data</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
